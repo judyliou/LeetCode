@@ -6,7 +6,6 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
-        
         l = 0
         for r in range(len(nums)):
             if nums[r] != val:
@@ -23,7 +22,6 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
-        
         i = 0 
         while i < len(nums):
             if nums[i] == val:
@@ -41,8 +39,6 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
-        
         while val in set(nums):
             nums.remove(val)
-            
         return len(nums)
