@@ -1,10 +1,6 @@
 # Solution 1 (recursive)
 class Solution(object):
     def countAndSay(self, n):
-        """
-        :type n: int
-        :rtype: str
-            """
         if n == 1:
             return '1'
      
@@ -26,10 +22,6 @@ class Solution(object):
 # Solution 2 (iterative)
 class Solution(object):
     def countAndSay(self, n):
-        """
-        :type n: int
-        :rtype: str
-            """
         if n == 1:
             return '1'
      
