@@ -9,7 +9,6 @@ class Solution(object):
         left = 0
         right = len(nums) - 1
         
-        # compare left or right
         while left < right:
             n = int((left + right) / 2)
             
