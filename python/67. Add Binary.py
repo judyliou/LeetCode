@@ -1,4 +1,4 @@
-# Solution 2
+# Solution 1
 class Solution(object):
     def addBinary(self, a, b):
         a = int(a)
