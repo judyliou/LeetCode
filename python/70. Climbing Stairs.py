@@ -14,7 +14,6 @@ class Solution(object):
                 pre2 = now
             return now
 
-
 # Solution 2: O(logn)
 class Solution(object):
     def mul(self, a, b):
