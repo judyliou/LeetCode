@@ -8,3 +8,11 @@ class Solution:
         reverse = input[::-1]
         output = int(reverse, 2)
         return output
+    
+    # Solution 2
+    def reverseBits(self, n):
+        reverse = 0
+        for i in range(32):
+            reverse = reverse << 1
+            reverse |= (n >> i) & 1
+        return reverse
