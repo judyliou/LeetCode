@@ -1,3 +1,4 @@
+# sol 1
 class Solution(object):
     def examine(self, cur, pre):
         while cur.next != None:
@@ -20,3 +21,14 @@ class Solution(object):
         cur, pre = head, head
         self.examine(cur, pre)
         return head
+
+# sol 2
+class Solution(object):                
+    def deleteDuplicates(self, head):
+        cur = head
+        while cur:
+            while cur.next and cur.next.val == cur.val:
+                cur.next = cur.next.next  # skip repeated ones
+            cur = cur.next
+        return head
+        
