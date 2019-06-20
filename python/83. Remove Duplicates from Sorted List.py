@@ -1,4 +1,4 @@
-# sol 1
+# Solution 1
 class Solution(object):
     def examine(self, cur, pre):
         while cur.next != None:
@@ -22,7 +22,7 @@ class Solution(object):
         self.examine(cur, pre)
         return head
 
-# sol 2
+# Solution 2
 class Solution(object):                
     def deleteDuplicates(self, head):
         cur = head
