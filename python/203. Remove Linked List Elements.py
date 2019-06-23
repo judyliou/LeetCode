@@ -8,11 +8,7 @@ class Solution(object):
         while head and head.val == val:
             head = head.next
         
-        if not head:
-            return head
-        else:
-            cur = head
-        
+        cur = head
         while cur:
             while cur.next and cur.next.val == val:
                     cur.next = cur.next.next
