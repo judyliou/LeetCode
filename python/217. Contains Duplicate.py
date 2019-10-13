@@ -1,5 +1,4 @@
-# Hash Table
-# Time: O(n), Space: O(n)
+# Hash Table - Time: O(n), Space: O(n)
 class Solution(object):
     def containsDuplicate(self, nums):
         if nums is None:
@@ -13,8 +12,7 @@ class Solution(object):
                     return True
             return False
             
-# Sorted
-# Time: O(nlogn), Space: O()
+# Sorted - Time: O(nlogn), Space: O()
 class Solution(object):
     def containsDuplicate(self, nums):
         if nums is None:
