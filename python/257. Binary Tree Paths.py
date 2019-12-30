@@ -1,3 +1,4 @@
+# Both O(n) DFS
 # Recursion
 class Solution(object):
     def binaryTreePaths(self, root):
