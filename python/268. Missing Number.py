@@ -12,3 +12,8 @@ def missingNumber(self, nums):
         sum += i
     total = (1 + len(nums)) * len(nums) / 2
     return total - sum
+
+# Sol 3: time complexity O(n), memory complexity O(1)
+def missingNumber(self, nums):     
+    total = (1 + len(nums)) * len(nums) / 2
+    return total - sum(nums)
